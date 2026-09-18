@@ -9,7 +9,7 @@ In many regions, multiplex cinemas still rely heavily on manual, counter-based t
 *   **Poor Administrative Insight**: Cinema administrators lack centralized, real-time analytics to track revenue, occupancy rates, and show performance, making it difficult to optimize screen scheduling dynamically.
 
 ## Scope of the Project
-The **Multiplex Movie Booking System** is designed to address these gaps by providing a unified, self-service digital platform. 
+The **Popflix Movie Booking System** is designed to address these gaps by providing a unified, self-service digital platform. 
 
 The scope includes:
 *   **Role-Based Access Control**: Separate, secure portals for Users (customers) and Admins (cinema managers).
