@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🎬 Multiplex Movie Booking System</h1>
+  <h1>🎬 Popflix Movie Booking System</h1>
   <p><strong>A robust, console-based Java application that simulates the experience of booking movie tickets in a modern multiplex.</strong></p>
   
   <p>
@@ -12,7 +12,7 @@
 <br />
 
 ## 📖 Overview
-The **Multiplex Movie Booking System** provides two distinct portals: 
+The **Popflix Movie Booking System** provides two distinct portals: 
 * 🧑‍💻 **User Portal**: Browse movies, select seats via a visual seat map, order snacks, and book tickets.
 * 👨‍💼 **Admin Portal**: Manage the movie catalogue, schedule shows, and view real-time revenue analytics.
 
@@ -61,11 +61,11 @@ java -version
    ```
 2. **Compile the code**:
    ```bash
-   javac MultiplexBookingSystem.java
+   javac PopflixBookingSystem.java
    ```
 3. **Run the application**:
    ```bash
-   java MultiplexBookingSystem
+   java PopflixBookingSystem
    ```
 
 ---
@@ -93,8 +93,8 @@ You can manually test the system using the following flows:
 ```text
 MovieBookingSystem/
 ├── src/
-│   └── MultiplexBookingSystem.java      # Main source code file
-├── Multiplex_Movie_Booking_System_Report_v4.docx  # Detailed project report
+│   └── PopflixBookingSystem.java      # Main source code file
+├── Popflix_Movie_Booking_System_Report_v4.docx  # Detailed project report
 ├── statement.md                         # Problem statement and scope
 ├── .gitignore                           # Git ignore rules
 └── README.md                            # Project documentation
