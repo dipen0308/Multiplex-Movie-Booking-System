@@ -232,7 +232,7 @@ public class MultiplexBookingSystem {
     private static void runPortalSelection() {
         while (true) {
             System.out.println("\n============================================");
-            System.out.println("       MULTIPLEX MOVIE BOOKING SYSTEM       ");
+            System.out.println("       POPFLIX MOVIE BOOKING SYSTEM       ");
             System.out.println("============================================");
             System.out.println("1. Login as User");
             System.out.println("2. Login as Admin");
@@ -460,7 +460,7 @@ public class MultiplexBookingSystem {
     private static void runAdminMenu() {
         while (true) {
             System.out.println("\n------------- ADMIN DASHBOARD -------------");
-            System.out.println("1. View Multiplex Analytics");
+            System.out.println("1. View Popflix Analytics");
             System.out.println("2. Add New Movie");
             System.out.println("3. Add New Show");
             System.out.println("4. Remove Movie");
@@ -538,7 +538,7 @@ public class MultiplexBookingSystem {
     }
 
     private static void displayRevenueAnalytics() {
-        System.out.println("\n============= MULTIPLEX ANALYTICS =============");
+        System.out.println("\n============= POPFLIX ANALYTICS =============");
         Map<Movie, List<Show>> showsByMovie = shows.stream().collect(Collectors.groupingBy(Show::getMovie));
         double platformTotal = 0;
 
